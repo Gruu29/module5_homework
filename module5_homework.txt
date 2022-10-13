@@ -13,6 +13,7 @@ if (typeof input == "number"){
   }
 }
 
+
 2 задание:
 let x = 1;
 if (typeof x == "number"){
@@ -28,14 +29,17 @@ else {
   console.log("Тип x не определен")
 }
 
+
 3 задание:
 function reverseString(str){
 return str.split("").reverse().join("");
   }
 reverseString("Ivan");
 
+
 4 задание:
 console.log(Math.round(Math.random()*100));
+
 
 5 задание:
 let arr = [4, 8, 15, 16, 25];
@@ -46,12 +50,31 @@ arr.forEach(function(item, index, arr) {
   console.log( index + ": " + item + " (массив:" + arr + ")" );
 });
 
+
  6 задание:
 let arr = [3,6,7,3, ""];
 function check(arr) {
   return arr.every((item, index, arr) => typeof item === typeof arr[0]);  
 }
 console.log(check(arr));
+
+
+7задание
+let arr = [3, 4, 8, 5];
+let ch = 0;
+let nech = 0;
+for (let i = 0, i < arr.length, i++) {
+  if (arr[i] == 0 || arr[i] == null){
+    console.log("Элемент равен нулю или null")
+  }
+} else if (arr[i] % 2 === 0){
+    ch++;
+  console.log(`Чётных элементов ${ch}`)
+} else {
+    nech++;
+    console.log(`Нечётных элементов ${nech}`)
+}
+}
 
  8 задание:
 let car = new Map([
