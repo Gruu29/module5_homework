@@ -1,4 +1,4 @@
-1 задание
+1 задание:
 let input = prompt("Введите значение");
 input = +input;
 if (typeof input == "number"){
@@ -13,7 +13,7 @@ if (typeof input == "number"){
   }
 }
 
-2 задание
+2 задание:
 let x = 1;
 if (typeof x == "number"){
   console.log(x + "- число");
@@ -28,16 +28,16 @@ else {
   console.log("Тип x не определен")
 }
 
-3 задание
+3 задание:
 function reverseString(str){
 return str.split("").reverse().join("");
   }
 reverseString("Ivan");
 
-4 задание
+4 задание:
 console.log(Math.round(Math.random()*100));
 
-5 задание
+5 задание:
 let arr = [4, 8, 15, 16, 25];
 
 console.log(arr.length);
@@ -46,14 +46,14 @@ arr.forEach(function(item, index, arr) {
   console.log( index + ": " + item + " (массив:" + arr + ")" );
 });
 
- 6 задание
+ 6 задание:
 let arr = [3,6,7,3, ""];
 function check(arr) {
   return arr.every((item, index, arr) => typeof item === typeof arr[0]);  
 }
 console.log(check(arr));
 
- 8 задание
+ 8 задание:
 let car = new Map([
 
   ["brand", "BMW"],
